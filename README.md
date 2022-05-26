@@ -1,10 +1,10 @@
 # grace-pl
 
-## Installation
+## Jupyter and geospatial Conda environment
 In command prompt:
 1. ```conda env create -f environment.yml```
 2. ```conda activate geo```
 3. ```jupyter lab```
 
-## data/gitignored
-data/gitignored directory is for large datasets that should not be send to GitHub.
+## gitignore using ```_``` prefix
+```_*``` rule is added to [.gitignore](.gitignore). For large files or folders, that should not be uploaded to GitHub use ```_``` prefix (example in [grace_process.ipynb](grace_process.ipynb)).
