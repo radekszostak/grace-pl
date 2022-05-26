@@ -6,5 +6,5 @@ In command prompt:
 2. ```conda activate geo```
 3. ```jupyter lab```
 
-## data/gitignored
-data/gitignored directory is for large datasets that should not be send to GitHub.
+## ```gitignored``` directory
+For large datasets, that should not be uploaded to GitHub use ```gitignored``` dorectory (example in [grace_process.ipynb](grace_process.ipynb)). ```gitignored``` directory is added to [.gitignore](.gitignore).
