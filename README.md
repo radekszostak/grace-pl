@@ -6,5 +6,5 @@ In command prompt:
 2. ```conda activate geo```
 3. ```jupyter lab```
 
-## gitignore using ```_``` prefix
+## Ignore from git using ```_``` prefix
 ```_*``` rule is added to [.gitignore](.gitignore). For large files or folders, that should not be uploaded to GitHub use ```_``` prefix (example in [grace_process.ipynb](grace_process.ipynb)).
