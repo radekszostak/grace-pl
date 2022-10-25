@@ -26,7 +26,6 @@ RUN pip install leafmap
 RUN pip install xarray_leaflet
 RUN pip install localtileserver
 ENV LOCALTILESERVER_CLIENT_PREFIX='proxy/{port}'
-RUN pip install cftime
 
 # pytorch
 RUN pip install torch torchvision torchaudio
