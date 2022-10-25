@@ -26,6 +26,7 @@ RUN pip install leafmap
 RUN pip install xarray_leaflet
 RUN pip install localtileserver
 ENV LOCALTILESERVER_CLIENT_PREFIX='proxy/{port}'
+RUN pip install cftime
 
 # pytorch
 RUN pip install torch torchvision torchaudio
@@ -33,10 +34,10 @@ RUN pip install torch torchvision torchaudio
 # other
 RUN pip install scipy
 
-# clone repo
-RUN git clone https://radekszostak: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@github.com/radekszostak/aerial-thermal-tuner /home/aerial-thermal-tuner
-WORKDIR /home/aerial-thermal-tuner
+# create workdir
+RUN git clone https://github.com/radekszostak/grace-pl /home/grace-pl
+WORKDIR /home/grace-pl
 
 #---
 EXPOSE 8888
-ENTRYPOINT ["jupyter", "lab", "--port=8888", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
+ENTRYPOINT ["jupyter", "lab", "--port=8888", "--ip=0.0.0.0", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
