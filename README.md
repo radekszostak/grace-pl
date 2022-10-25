@@ -1,4 +1,5 @@
 # grace-pl
 
 ## Setting up environment
-Use Dockerfile
+docker build . -t "grace-pl"
+
