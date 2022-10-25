@@ -3,9 +3,11 @@
 
 ## Running on local machine
 ### Container configuration
-1. Install docker on your machine
-2. `docker build https://raw.githubusercontent.com/radekszostak/grace-pl/master/Dockerfile -t grace-pl --no-cache`
-3. `docker create -p 8888:8888 --name grace-pl-container grace-pl:latest`
+1. Install docker on your machine.
+2. Build image from dockerfile:\
+`docker build https://raw.githubusercontent.com/radekszostak/grace-pl/master/Dockerfile -t grace-pl --no-cache`
+3. Create container from image:\
+`docker create -p 8888:8888 --name grace-pl-container grace-pl:latest`
 
 ### Running
 1. `docker start --interactive grace-pl-container`
