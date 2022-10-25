@@ -6,4 +6,4 @@
 
 ## Running environment
 `docker start --interactive grace-pl-container`\
-Run Jupyter Lab in browser or attach environment to IDE: http://localhost:8888/
+Open Jupyter Lab at http://localhost:8888/ or attach running container to IDE.
