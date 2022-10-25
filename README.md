@@ -6,4 +6,4 @@
 
 ## Running environment
 `docker start --interactive grace-pl-container`
-
+Run in browser or attach to IDE: `http://localhost:8888/`
