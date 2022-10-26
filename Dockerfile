@@ -27,8 +27,9 @@ RUN pip install xarray_leaflet
 RUN pip install localtileserver
 ENV LOCALTILESERVER_CLIENT_PREFIX='proxy/{port}'
 
-# pytorch
+# machine learning
 RUN pip install torch torchvision torchaudio
+RUN pip install wandb
 
 # other
 RUN pip install scipy
