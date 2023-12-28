@@ -25,7 +25,8 @@ train_v1.ipynb - notebook with training code
 For training you need to have prepared pickle file with dataframes from data processing step.
 Training was conducted on Google Colab due to problem with installing ray tune on MacOS with M1 chip.
 
-
+## Testing
+test_model.ipynb - notebook with testing code
 
 
 
