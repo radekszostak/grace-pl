@@ -1,2 +1,4 @@
 .ipynb_checkpoints
-data
+data/*
+GDAL-3.6.3
+.vscode
